@@ -41,6 +41,8 @@ def kesha_maker(string)
   array.each_with_index do |string,i|
    r_array << i[2] ="$"
    
+   
+   _with_index
 end 
 
 def find_a
