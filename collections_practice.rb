@@ -25,7 +25,7 @@ def swap_elements(array)
  arr = array.split(" ")
  n =[]
   arr.each do|a,b|
-  n << a[1], b[2] = a[2], b[1] 
+  n = a[1], b[2] = a[2], b[1] 
  end
   return n.join(" ")
 end 
