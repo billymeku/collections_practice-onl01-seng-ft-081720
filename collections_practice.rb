@@ -39,14 +39,13 @@ def kesha_maker(string)
  array = string.split(" ")
   r_array= []
   array.each {|string| string[2].join"}
-   r_array << i[2] ="$"
    
    
-  #  i = 0
-  #while array.length > i 
+    i = 0
+  while array.length > i 
    
-   #   yield(array[i])
-    #  i = i + 1
+      yield(array[i])
+      i = i + 1
 end 
 
 def find_a
