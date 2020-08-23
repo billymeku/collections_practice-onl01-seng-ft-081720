@@ -34,7 +34,7 @@ def reverse_array(number)
 
 end 
 
-def kesha_maker(array)
+def kesha_maker(string)
   
  array = string.split(" ")
   r_array= []
