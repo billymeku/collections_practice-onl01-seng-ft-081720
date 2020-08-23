@@ -37,7 +37,7 @@ end
 def kesha_maker(string)
     i = 0
   while string.length > i 
-  
+  chars = string.split(' ')
    
       i = i + 1
 end 
