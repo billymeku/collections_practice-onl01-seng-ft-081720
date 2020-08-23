@@ -45,7 +45,7 @@ end
 end 
 
 def find_a
-  214 0899
+  
 end 
 
 def sum_array
