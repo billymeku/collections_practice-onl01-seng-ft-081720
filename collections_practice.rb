@@ -33,7 +33,7 @@ def reverse_array(number)
 
 end 
 
-def kesha_maker(string)
+def kesha_maker(array)
    # code here
   i = 0
   while array.length > i 
