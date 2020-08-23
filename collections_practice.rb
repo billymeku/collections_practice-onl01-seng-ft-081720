@@ -45,7 +45,7 @@ end
 end 
 
 def find_a(array)
-  array.{|i| i.is_a?(String)}
+  array.select {|i| i.is_a?(String)}
 end 
 
 def sum_array
