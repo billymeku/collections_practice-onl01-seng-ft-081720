@@ -35,16 +35,10 @@ def reverse_array(number)
 end 
 
 def kesha_maker(string)
-  
- array = string.split(" ")
-  r_array= []
-  array.each {|string| string[2].join"}
-   
-   
     i = 0
-  while array.length > i 
+  while string.length > i 
+  
    
-      yield(array[i])
       i = i + 1
 end 
 
