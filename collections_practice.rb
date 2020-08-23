@@ -26,7 +26,8 @@ def swap_elements(array)
  n =[]
   array.sort do|a,b|
   n << a[1], b[2] = a[2], b[1] 
- end 
+ end
+  return 
 end 
 
 def reverse_array(number)
