@@ -36,8 +36,9 @@ end
 
 def kesha_maker(array)
   
-  array.each do 
-  
+ array = string.split(" ")
+  r_array= []
+  array.each do |string|
 
 end 
 
