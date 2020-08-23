@@ -23,11 +23,10 @@ end
 def swap_elements(array)
   
  arr = array.split(" ")
- n =[]
-  arr.each do|array|
+  array.each do|a,b|
   n = a[1], b[2] = a[2], b[1] 
  end
-  return n.join(" ")
+
 end 
 
 def reverse_array(number)
