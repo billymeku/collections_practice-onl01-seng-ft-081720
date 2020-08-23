@@ -34,13 +34,7 @@ def reverse_array(number)
 end 
 
 def kesha_maker(string)
-    i = 0
-  while string.length > i 
-  chars = string.split(' ')
-  yield(array[2] ="$")
-      i = i + 1
-end 
-  chars
+   
 end 
 
 def find_a(array)
