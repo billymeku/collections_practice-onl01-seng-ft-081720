@@ -42,6 +42,8 @@ def kesha_maker(string)
       i = i + 1
 end 
   chars
+end 
+
 def find_a
   
 end 
