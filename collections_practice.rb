@@ -22,9 +22,8 @@ end
 
 def swap_elements(array)
   
- arr = array.split(" ")
-  array.each do|a,b|
-  n = a[1], b[2] = a[2], b[1] 
+
+  array[1], array[2] = array[2], array[1] 
  end
 
 end 
