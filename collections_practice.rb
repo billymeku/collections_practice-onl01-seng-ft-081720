@@ -23,6 +23,7 @@ end
 def swap_elements(array)
   
  arr = array.split(" ")
+ n =[]
   array.sort do|a,b|
   a[1], b[2] = a[2], b[1] 
  end 
