@@ -38,11 +38,15 @@ def kesha_maker(string)
   
  array = string.split(" ")
   r_array= []
-  array.each_with_index do |string,i|
+  array.each_with_index do |string,index|
    r_array << i[2] ="$"
    
    
-   _with_index
+  #  i = 0
+  #while array.length > i 
+   
+   #   yield(array[i])
+    #  i = i + 1
 end 
 
 def find_a
