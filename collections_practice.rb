@@ -32,7 +32,7 @@ def reverse_array(number)
 end 
 
 def kesha_maker(string)
-  string.collect do |element|
+  string.each do |element|
     element[2] = "$"
     element
   end
