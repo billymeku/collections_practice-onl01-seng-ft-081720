@@ -40,6 +40,9 @@ def kesha_maker(string)
 end 
 
 def find_a(array)
+   array.select do |word|
+    word.chr == "a"
+  end
  
 end 
 
